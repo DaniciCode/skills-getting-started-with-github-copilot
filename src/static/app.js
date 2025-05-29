@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
                           `<li>${participant}</li>`
                       )
                       .join("")
-                  : '<li style="color:#888;font-style:italic;">No participants yet</li>'
+                  : '<li class="no-participants">No participants yet</li>'
               }
             </ul>
           </div>
